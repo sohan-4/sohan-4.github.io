@@ -9,6 +9,52 @@ h1 {
 	font-size: 30px;
 }
 
+#name {
+	padding: 0px;
+	animation: 4s text_color forwards 1s;
+}
+
+@keyframes text_color {
+	0% {
+		color: black;
+	}
+	25% {
+		color: black;
+	}
+	50%{
+		color:red;
+	}
+	75%{
+		color: black;
+	}
+	99.99%{
+		border-style: none;
+		border-width: 0px;
+		padding: 0px;
+	}
+	100%{
+		color:black;
+		border-style: double;
+		border-width: 5px;
+		border-color: blue;
+		border-radius: 12px;
+		padding: 2px;
+		display: inline-block
+	}
+}
+
 p {
 	font-size: 20px;
+}
+
+#contact {
+	justify-content: center;
+	display: flex;
+	h5{
+		padding: 6px;
+	}
+}
+
+#iact {
+	font-size: 17.5px;
 }
