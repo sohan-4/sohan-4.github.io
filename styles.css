@@ -1,8 +1,8 @@
 body {
 	text-align: center;
 	font-family: 'Times New Roman', serif;
-	background-color: #E8E8E8;
-	list-style-position: inside
+	list-style-position: inside;
+	background-color: lightcyan;
 }
 
 h1 {
