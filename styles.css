@@ -36,6 +36,12 @@ p {
 	font-size: 20px;
 }
 
+hr {
+	height: 3px;
+	background-color: black;
+	border: none;
+}
+
 #contact {
 	justify-content: center;
 	display: flex;
