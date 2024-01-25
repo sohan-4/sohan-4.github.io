@@ -3,6 +3,19 @@ body {
 	font-family: 'Times New Roman', serif;
 	list-style-position: inside;
 	background-color: lightcyan;
+	animation: bg_change 40s infinite 0.5s;
+}
+
+@keyframes bg_change {
+	0% {
+		background-color: lightcyan;
+	}
+	50% {
+		background-color: lightpink;
+	}
+	100% {
+		background-color: lightcyan;
+	}
 }
 
 h1 {
@@ -11,36 +24,6 @@ h1 {
 
 #name {
 	padding: 0px;
-	animation: 4s text_color forwards 1s;
-}
-
-@keyframes text_color {
-	0% {
-		color: black;
-	}
-	25% {
-		color: black;
-	}
-	50%{
-		color:red;
-	}
-	75%{
-		color: black;
-	}
-	99.99%{
-		border-style: none;
-		border-width: 0px;
-		padding: 0px;
-	}
-	100%{
-		color:black;
-		border-style: double;
-		border-width: 5px;
-		border-color: blue;
-		border-radius: 12px;
-		padding: 2px;
-		display: inline-block
-	}
 }
 
 p {
