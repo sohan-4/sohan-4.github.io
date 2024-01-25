@@ -2,19 +2,25 @@ body {
 	text-align: center;
 	font-family: 'Times New Roman', serif;
 	list-style-position: inside;
-	background-color: lightcyan;
-	animation: bg_change 40s infinite 0.5s;
+	background-color: lightskyblue;
+	animation: bg_change 12s infinite 0.5s;
 }
 
 @keyframes bg_change {
 	0% {
-		background-color: lightcyan;
+		background-color: lightskyblue;
 	}
-	50% {
+	25% {
 		background-color: lightpink;
 	}
+	50% {
+		background-color: lightgreen;
+	}
+	75% {
+		background-color: #FFFF33;
+	}
 	100% {
-		background-color: lightcyan;
+		background-color: lightskyblue;
 	}
 }
 
