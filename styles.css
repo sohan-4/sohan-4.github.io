@@ -24,8 +24,12 @@ body {
 	}
 }
 
+ul {
+	display: inline-block;
+	text-align: middle;
+}
 h1 {
-	font-size: 30px;
+	font-size: 45px;
 }
 
 #name {
@@ -33,7 +37,7 @@ h1 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 hr {
@@ -51,5 +55,5 @@ hr {
 }
 
 .smaller {
-	font-size: 17.5px;
+	font-size: 26.25px;
 }
