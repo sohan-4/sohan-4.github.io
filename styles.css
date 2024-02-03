@@ -2,32 +2,84 @@ body {
 	text-align: center;
 	font-family: 'Times New Roman', serif;
 	list-style-position: inside;
-	background-color: lightskyblue;
-	animation: bg_change 12s infinite 0.5s;
+	background-color: aqua;
+	animation: bg_change 60s infinite 0.5s;
 }
 
-@keyframes bg_change {
+ul {
+	display: inline-block;
+	width: 33%;
+	list-style-type: circle;
+	border-style: solid;
+	padding: 0;
+}
+
+li {
+	background-color: lightskyblue;
+	animation: list_bg_change 60s infinite 0.5s;
+	padding: 4px;
+}
+
+@keyframes list_bg_change {
 	0% {
+		background-color: lightskyblue;
+	}
+	24.99%{
 		background-color: lightskyblue;
 	}
 	25% {
 		background-color: lightpink;
 	}
+	49.99% {
+		background-color: lightpink;
+	}
 	50% {
 		background-color: lightgreen;
 	}
+	74.99% {
+		background-color: lightgreen;
+	}
 	75% {
-		background-color: #FFFF33;
+		background-color: #FFFF70;
+	}
+	99.99% {
+		background-color: #FFFF70;
 	}
 	100% {
 		background-color: lightskyblue;
 	}
 }
 
-ul {
-	display: inline-block;
-	text-align: middle;
+@keyframes bg_change {
+	0% {
+		background-color: aqua;
+	}
+	24.99%{
+		background-color: aqua;
+	}
+	25%{
+		background-color: red;
+	}
+	49.99%{
+		background-color: red;
+	}
+	50% {
+		background-color: #32DE84;
+	}
+	74.99%{
+		background-color: #32DE84;
+	}
+	75%{
+		background-color: yellow;
+	}
+	99.99%{
+		background-color: yellow;
+	}
+	100%{
+		background-color: aqua;
+	}
 }
+
 h1 {
 	font-size: 45px;
 }
