@@ -1,7 +1,8 @@
 body {
-    background-image: url(assets/background.gif);
+    background: linear-gradient(45deg, red, blue, yellow, green);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -47,9 +48,7 @@ address h2, section h2 {
     width: 85%;
     margin: 0 auto;
     font-size: 16px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
     padding-bottom: 20px;
     color: lightcyan;
     text-align: center;
