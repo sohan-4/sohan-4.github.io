@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, red, blue, yellow, green);
+    background: linear-gradient(45deg, magenta, cyan, yellow, lime);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -8,10 +8,34 @@ body {
 }
 
 header{
-    margin: 0px;
+    margin: 45px 0px 0px 0px;
     padding: 0px;
     text-align: center;
-    color: red;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: darkslateblue;
+    padding: 5px;
+}
+
+header h1{
+    margin: 0px;
+    padding: 8px 36px 2px;
+    color: wheat;
+    background-color: darkslateblue;
+    display: inline-block;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+header p{
+    margin: 0px;
+    padding: 2px 7px 7px;
+    color: wheat;
+    background-color: darkslateblue;
+    display: inline-block;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 address img {
@@ -30,7 +54,7 @@ address {
 }
 
 address p {
-    border: 1px dashed red;
+    border: 1px dashed black;
     padding: 20px;
     margin: 3px;
     width: auto;
@@ -48,9 +72,9 @@ address h2, section h2 {
     width: 85%;
     margin: 0 auto;
     font-size: 16px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    background: radial-gradient(circle, rgba(225, 225, 225, 0.8), rgba(200, 200, 200, 0.2));
     padding-bottom: 20px;
-    color: lightcyan;
+    color: wheat;
     text-align: center;
 }
 
@@ -69,8 +93,9 @@ section{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    background-color: darkslategray;
-    border: 3px solid red;
+    background-color: darkslateblue;
+    border: 3px solid black;
+    border-radius: 15px;
     padding: 10px 20px;
     max-width: 80%;
     min-width: 50%;
@@ -101,7 +126,7 @@ section ul {
 }
 
 li {
-    border: 1px solid red;
+    border: 1px solid wheat;
     padding: 3px;
     margin: 3px;
     display: inline-block;
@@ -109,23 +134,24 @@ li {
 
 hr {
     height: 2px;
-    border: 1px solid red;
+    border: 1px solid wheat;
+    border-radius: 15px;
     width: 95%;
-    background-color: red;
+    background-color: wheat;
 }
 
 a {
-    color: lightcyan;
+    color: wheat;
 }
 
 a:visited {
-    color: lightcyan;
+    color: wheat;
 }
 
 a:hover {
-    color: red;
+    color: goldenrod;
 }
 
 a:active {
-    color: red;
+    color: lightcoral;
 }
